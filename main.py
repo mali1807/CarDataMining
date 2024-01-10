@@ -84,7 +84,6 @@ def filter_data():
         # If no matching data, show a message
         treeview.insert('', 'end', values=["No matching data found"])
 
-# Reading data from text file and neatly creating dictionary
 with open('output.csv', 'r', encoding='utf-8') as file:
     lines = file.readlines()
 
