@@ -8,10 +8,8 @@ columns = [
     'Top Speed', 'Luggage Volume', '0-100', 'Max Torque', 'Cylinder', 'Tank', 'Consumption', 'Valve']
 
 def converting_csv_file():
-    # Specify the encoding of your text file (e.g., 'utf-8', 'latin-1', etc.)
     file_encoding = 'utf-8'
 
-    # Open the text file for reading with the specified encoding
     with open('output.txt', 'r', encoding=file_encoding) as txt_file:
         # Read the lines from the text file
         lines = txt_file.readlines()
